@@ -7,7 +7,7 @@ interface GithubIconColumnProps extends React.HTMLAttributes<HTMLDivElement> {}
 export const GithubIconColumn: React.FC<GithubIconColumnProps> = (props) => {
 
     const redirectGitHub = () => {
-        window.open('https://github.com/matheusduarte21', '_blank');
+        window.open('https://github.com/ZeratoXD', '_blank');
     }
 
     return (

@@ -11,37 +11,41 @@ export const ContentProjects = () =>{
                 Nesta seção, apresento projetos que representam minha paixão e experiência na área de tecnologia.
             </p>
 
-            <h3>Esteira CI/CD</h3>
+            <h3>Blog Pessoal</h3>
 
              <img width='100%' alt='user' height='300px' src={imgEsteira}/>
 
             <p>
-                Recentemente, desenvolvi um projeto para intensificar meus estudos em Kubernetes, criando uma esteira CI/CD completa. 
-
-                Neste projeto, utilizei Docker para containerização, React para o front-end, e Nginx para servir a aplicação. Configurei o cluster na DigitalOcean, enquanto o gerenciamento do cluster é realizado com Kubernetes. 
-
-                Essa configuração permite uma implantação automatizada e mais ágil, ideal para testar e expandir meus conhecimentos práticos.
+            O Projeto blog pessoal foi pensado e pela Generation Brasil de maneira didática e eficiente para os alunos aplicarem seus conhecimentos e praticarem o desenvolvimento de uma aplicação completa. As linguagens utilizadas foram Java com Spring boot para o Back end e Javascript, Typescript com React e a estilização com  CSS Tailwind, durante o desenvolvimento da API foram utilizados Junit  para testes unitários e Insominia para testes de requisição.
 
                <div className="container-links-contents">
-                  <p>link para o repositório: <a  target='_blank' rel="noreferrer" href="https://github.com/matheusduarte21/testeCi">Repositório CI/CD</a></p>
+                  <p>link para o repositório: <a  target='_blank' rel="noreferrer" href="https://github.com/ZeratoXD/BlogPessoal">Repositório CI/CD</a></p>
                </div>
 
             </p>
 
-            <h3>TopMovies</h3>
+            <h3>Nosso Pomar</h3>
 
              <img width='100%'  alt='user' height='300px' src={imgTopMovies}/>
 
             <p>
-                Recentemente, desenvolvi um projeto para me aprofundar em React, TypeScript e Vite. 
+            O "Nosso Pomar" é um e-commerce com foco social e sustentável, conectando diretamente pequenos e médios agricultores ao consumidor final. A plataforma amplia o mercado para os produtores, aumenta sua renda e promove um ciclo econômico sustentável, contribuindo para o combate à fome e o fortalecimento da economia local.
+Tecnologias Utilizadas
+•	Front-end: Node.js, React, JavaScript, TypeScript, HTML, CSS e Tailwind CSS, garantindo interfaces modernas e responsivas.
+•	Back-end: Java e Spring Boot, utilizando a arquitetura MVC para serviços web robustos e escaláveis.
+•	Metodologia: Seguindo o SCRUM, o desenvolvimento foi ágil, colaborativo e adaptável, com entregas incrementais e comunicação constante.
+Benefícios da Plataforma
+•	Empoderamento dos Agricultores: Acesso direto ao mercado e maior geração de renda.
+•	Sustentabilidade: Incentivo ao consumo consciente e práticas agrícolas responsáveis.
+•	Economia Local: Fortalecimento das comunidades e da agricultura familiar.
+Mais que um marketplace, o "Nosso Pomar" é uma ferramenta de transformação social, promovendo impacto positivo e inovação em prol da erradicação da fome e da agricultura sustentável.
 
-                A aplicação consome dados de uma API de filmes, e utilizei React para gerenciar toda a interface e o fluxo de dados. Foi uma ótima oportunidade para fortalecer meus conhecimentos e habilidades em desenvolvimento front-end!
                 <div className="container-links-contents">
                     <p>
-                        link para repositório: <a  target='_blank' rel="noreferrer" href="https://github.com/matheusduarte21/topMovies-react">Repositório TopMovies </a>
+                        link para repositório: <a  target='_blank' rel="noreferrer" href="https://github.com/projeto-integrador-nossopomar">Repositório TopMovies </a>
                     </p>
                     <p>
-                        Deploy: <a  target='_blank' rel="noreferrer" href="https://react-tmdb.netlify.app/">Clique para ver o Site</a> 
+                        Deploy: <a  target='_blank' rel="noreferrer" href="https://beautiful-bienenstitch-eb135e.netlify.app/home">Clique para ver o Site</a> 
                     </p>
                 </div>
 

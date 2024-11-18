@@ -4,7 +4,7 @@
 export const ContentWork = () => {
     return(
         <div>
-          <h2>Minhas Experiências Profissionais</h2>
+          <h2>Experiências Profissionais</h2>
                 <p>Neste tópico, gostaria de compartilhar um pouco sobre minhas experiências profissionais e minha trajetória no desenvolvimento de software.</p>
 
                 <div className="content-text-experience">
